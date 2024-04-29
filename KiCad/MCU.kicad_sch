@@ -2128,7 +2128,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k"
 			(at 78.74 132.08 90)
 			(effects
 				(font
@@ -2379,7 +2379,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k"
 			(at 78.74 71.12 90)
 			(effects
 				(font
@@ -2448,7 +2448,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 88.9 111.7599 0)
 			(effects
 				(font
@@ -2517,7 +2517,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k"
 			(at 78.74 81.28 90)
 			(effects
 				(font
@@ -2585,7 +2585,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k"
 			(at 78.74 91.44 90)
 			(effects
 				(font
@@ -2654,7 +2654,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 88.9 132.0799 0)
 			(effects
 				(font
@@ -2723,7 +2723,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k"
 			(at 78.74 121.92 90)
 			(effects
 				(font
@@ -2921,7 +2921,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k"
 			(at 78.74 60.96 90)
 			(effects
 				(font
@@ -2989,7 +2989,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k"
 			(at 78.74 111.76 90)
 			(effects
 				(font
@@ -3057,7 +3057,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "2k"
 			(at 78.74 101.6 90)
 			(effects
 				(font
@@ -3126,7 +3126,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 88.9 71.1199 0)
 			(effects
 				(font
@@ -3196,7 +3196,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 88.9 91.4399 0)
 			(effects
 				(font
@@ -3266,7 +3266,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 88.9 101.5999 0)
 			(effects
 				(font
@@ -3336,7 +3336,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 88.9 142.2399 0)
 			(effects
 				(font
@@ -3406,7 +3406,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 88.9 121.9199 0)
 			(effects
 				(font
@@ -3541,7 +3541,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1k"
 			(at 88.9 81.2799 0)
 			(effects
 				(font

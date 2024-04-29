@@ -2650,7 +2650,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 215.9 97.7899 0)
 			(effects
 				(font
@@ -2720,7 +2720,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "L"
+		(property "Value" "100u"
 			(at 138.43 106.6799 0)
 			(effects
 				(font
@@ -2790,7 +2790,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "330n"
 			(at 189.23 97.7899 0)
 			(effects
 				(font
@@ -2860,7 +2860,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "470p"
 			(at 102.87 111.7599 0)
 			(effects
 				(font
@@ -3017,7 +3017,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "330n"
 			(at 189.23 133.3499 0)
 			(effects
 				(font
@@ -3152,7 +3152,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "14k"
 			(at 129.54 109.22 90)
 			(effects
 				(font
@@ -3221,7 +3221,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 215.9 64.7699 0)
 			(effects
 				(font
@@ -3429,7 +3429,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "220u"
 			(at 87.63 99.0599 0)
 			(effects
 				(font
@@ -3636,7 +3636,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "0,2"
 			(at 113.03 74.93 90)
 			(effects
 				(font
@@ -3705,7 +3705,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 215.9 133.3499 0)
 			(effects
 				(font
@@ -3774,7 +3774,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "100n"
 			(at 188.722 64.77 0)
 			(effects
 				(font
@@ -3983,7 +3983,7 @@
 				)
 			)
 		)
-		(property "Value" "R"
+		(property "Value" "1,5k"
 			(at 119.38 109.22 90)
 			(effects
 				(font
@@ -4051,7 +4051,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "C"
+		(property "Value" "220u"
 			(at 140.208 120.142 0)
 			(effects
 				(font
