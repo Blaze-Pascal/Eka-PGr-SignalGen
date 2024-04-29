@@ -5,6 +5,237 @@
 	(uuid "c6616b6c-fa49-41d4-996d-2823a3672ad5")
 	(paper "A4")
 	(lib_symbols
+		(symbol "Amplifier_Operational:LM318H"
+			(pin_names
+				(offset 0.127)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "U"
+				(at 3.81 3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Value" "LM318H"
+				(at 3.81 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm318-n.pdf"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Operational Amplifier, TO-99-8"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "single opamp"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "SOIC*3.9x4.9mm*P1.27mm* DIP*W7.62mm* TO*99*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "LM318H_0_1"
+				(polyline
+					(pts
+						(xy 5.08 0) (xy -5.08 5.08) (xy -5.08 -5.08) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+			)
+			(symbol "LM318H_1_1"
+				(pin passive line
+					(at 0 -7.62 90)
+					(length 5.08)
+					(name "BAL1"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 -2.54 0)
+					(length 2.54)
+					(name "-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -7.62 2.54 0)
+					(length 2.54)
+					(name "+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 -7.62 90)
+					(length 3.81)
+					(name "V-"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 2.54 -7.62 90)
+					(length 6.35)
+					(name "BAL3"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin output line
+					(at 7.62 0 180)
+					(length 2.54)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin power_in line
+					(at -2.54 7.62 270)
+					(length 3.81)
+					(name "V+"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "7"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 7.62 270)
+					(length 5.08)
+					(name "BAL2"
+						(effects
+							(font
+								(size 0.508 0.508)
+							)
+						)
+					)
+					(number "8"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Amplifier_Operational:NE5532"
 			(pin_names
 				(offset 0.127)
@@ -979,7 +1210,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:BC547"
+		(symbol "Transistor_BJT:BD135"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -994,7 +1225,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC547"
+			(property "Value" "BD135"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1003,7 +1234,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1014,7 +1245,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
+			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1024,7 +1255,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
+			(property "Description" "1.5A Ic, 45V Vce, Low Voltage Transistor, TO-126"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1033,7 +1264,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "NPN Transistor"
+			(property "ki_keywords" "Low Voltage Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1042,7 +1273,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "TO?126*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1051,7 +1282,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC547_0_1"
+			(symbol "BD135_0_1"
 				(polyline
 					(pts
 						(xy 0 0) (xy 0.635 0)
@@ -1066,7 +1297,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy 2.54 -2.54) (xy 0.635 -0.635)
 					)
 					(stroke
 						(width 0)
@@ -1078,7 +1309,7 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 2.54 2.54) (xy 0.635 0.635)
 					)
 					(stroke
 						(width 0)
@@ -1097,12 +1328,12 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+						(xy 1.2446 -1.778) (xy 1.7526 -1.27) (xy 2.286 -2.286) (xy 1.2446 -1.778) (xy 1.2446 -1.778)
 					)
 					(stroke
 						(width 0)
@@ -1116,7 +1347,7 @@
 					(center 1.27 0)
 					(radius 2.8194)
 					(stroke
-						(width 0.254)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1124,7 +1355,25 @@
 					)
 				)
 			)
-			(symbol "BC547_1_1"
+			(symbol "BD135_1_1"
+				(pin passive line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 				(pin passive line
 					(at 2.54 5.08 270)
 					(length 2.54)
@@ -1135,7 +1384,7 @@
 							)
 						)
 					)
-					(number "1"
+					(number "2"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1153,24 +1402,6 @@
 							)
 						)
 					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
 					(number "3"
 						(effects
 							(font
@@ -1181,7 +1412,7 @@
 				)
 			)
 		)
-		(symbol "Transistor_BJT:BC557"
+		(symbol "Transistor_BJT:BD136"
 			(pin_names
 				(offset 0) hide)
 			(exclude_from_sim no)
@@ -1196,7 +1427,7 @@
 					(justify left)
 				)
 			)
-			(property "Value" "BC557"
+			(property "Value" "BD136"
 				(at 5.08 0 0)
 				(effects
 					(font
@@ -1205,7 +1436,7 @@
 					(justify left)
 				)
 			)
-			(property "Footprint" "Package_TO_SOT_THT:TO-92_Inline"
+			(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
 				(at 5.08 -1.905 0)
 				(effects
 					(font
@@ -1216,7 +1447,7 @@
 					(hide yes)
 				)
 			)
-			(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
+			(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1226,7 +1457,7 @@
 					(hide yes)
 				)
 			)
-			(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
+			(property "Description" "1.5A Ic, 45V Vce, Low Voltage Transistor, TO-126"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1235,7 +1466,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_keywords" "PNP Transistor"
+			(property "ki_keywords" "Low Voltage Transistor"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1244,7 +1475,7 @@
 					(hide yes)
 				)
 			)
-			(property "ki_fp_filters" "TO?92*"
+			(property "ki_fp_filters" "TO?126*"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1253,10 +1484,10 @@
 					(hide yes)
 				)
 			)
-			(symbol "BC557_0_1"
+			(symbol "BD136_0_1"
 				(polyline
 					(pts
-						(xy 0.635 0.635) (xy 2.54 2.54)
+						(xy 0 0) (xy 0.635 0)
 					)
 					(stroke
 						(width 0)
@@ -1268,7 +1499,19 @@
 				)
 				(polyline
 					(pts
-						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+						(xy 2.54 -2.54) (xy 0.635 -0.635)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 2.54) (xy 0.635 0.635)
 					)
 					(stroke
 						(width 0)
@@ -1287,12 +1530,12 @@
 						(type default)
 					)
 					(fill
-						(type none)
+						(type outline)
 					)
 				)
 				(polyline
 					(pts
-						(xy 2.286 -1.778) (xy 1.778 -2.286) (xy 1.27 -1.27) (xy 2.286 -1.778) (xy 2.286 -1.778)
+						(xy 1.778 -2.286) (xy 2.286 -1.778) (xy 1.27 -1.27) (xy 1.778 -2.286) (xy 1.778 -2.286)
 					)
 					(stroke
 						(width 0)
@@ -1306,7 +1549,7 @@
 					(center 1.27 0)
 					(radius 2.8194)
 					(stroke
-						(width 0.254)
+						(width 0.3048)
 						(type default)
 					)
 					(fill
@@ -1314,11 +1557,11 @@
 					)
 				)
 			)
-			(symbol "BC557_1_1"
+			(symbol "BD136_1_1"
 				(pin passive line
-					(at 2.54 5.08 270)
+					(at 2.54 -5.08 90)
 					(length 2.54)
-					(name "C"
+					(name "E"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1333,10 +1576,10 @@
 						)
 					)
 				)
-				(pin input line
-					(at -5.08 0 0)
-					(length 5.715)
-					(name "B"
+				(pin passive line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -1351,10 +1594,10 @@
 						)
 					)
 				)
-				(pin passive line
-					(at 2.54 -5.08 90)
-					(length 2.54)
-					(name "E"
+				(pin input line
+					(at -5.08 0 0)
+					(length 5.08)
+					(name "B"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -2280,7 +2523,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 114.808 104.14 90)
 			(effects
 				(font
@@ -2419,7 +2662,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 249.8852 43.18 0)
 			(effects
 				(font
@@ -2489,7 +2732,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 249.8852 33.02 0)
 			(effects
 				(font
@@ -2532,6 +2775,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BD135")
+		(at 175.26 78.74 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "1d91313e-955d-423b-93db-b5bcd8b6f1d1")
+		(property "Reference" "Q3"
+			(at 180.34 77.4699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD135"
+			(at 180.34 80.0099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(at 180.34 80.645 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A Ic, 45V Vce, Low Voltage Transistor, TO-126"
+			(at 175.26 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "1f222505-aacb-455e-b1c4-5ded8c1370f9")
+		)
+		(pin "3"
+			(uuid "91ed4799-995f-4e84-8c45-074f4729c4df")
+		)
+		(pin "1"
+			(uuid "3877d66c-1f2f-4ff6-930f-babe4e3f79c1")
+		)
+		(instances
+			(project "SiganlGen"
+				(path "/e2db369b-fed9-4358-b449-15db5155edf2/9ba1073f-2aa9-4b97-830f-fe16eb25e8f5"
+					(reference "Q3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 133.35 71.12 0)
 		(unit 2)
@@ -2557,7 +2876,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 133.35 71.12 0)
 			(effects
 				(font
@@ -2643,7 +2962,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 147.32 99.568 90)
 			(effects
 				(font
@@ -2686,6 +3005,82 @@
 		)
 	)
 	(symbol
+		(lib_id "Transistor_BJT:BD136")
+		(at 175.26 118.11 0)
+		(mirror x)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "27ad20be-69b6-463e-8f46-69122fa152df")
+		(property "Reference" "Q4"
+			(at 180.34 119.3801 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "BD136"
+			(at 180.34 116.8401 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Package_TO_SOT_THT:TO-126-3_Vertical"
+			(at 180.34 116.205 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.st.com/internet/com/TECHNICAL_RESOURCES/TECHNICAL_LITERATURE/DATASHEET/CD00001225.pdf"
+			(at 175.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Description" "1.5A Ic, 45V Vce, Low Voltage Transistor, TO-126"
+			(at 175.26 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9a64e15e-bbae-42d5-b557-ee992764f13a")
+		)
+		(pin "1"
+			(uuid "d8ef59a0-7ea6-4c76-b131-3ad3d6b9f7c5")
+		)
+		(pin "3"
+			(uuid "5092e5c9-c728-459f-8cbd-02c384e18ef4")
+		)
+		(instances
+			(project "SiganlGen"
+				(path "/e2db369b-fed9-4358-b449-15db5155edf2/9ba1073f-2aa9-4b97-830f-fe16eb25e8f5"
+					(reference "Q4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
 		(at 262.89 34.29 0)
 		(unit 3)
@@ -2713,7 +3108,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 262.89 34.29 0)
 			(effects
 				(font
@@ -2800,7 +3195,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 179.578 90.17 90)
 			(effects
 				(font
@@ -2837,6 +3232,92 @@
 			(project "SiganlGen"
 				(path "/e2db369b-fed9-4358-b449-15db5155edf2/9ba1073f-2aa9-4b97-830f-fe16eb25e8f5"
 					(reference "R11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Amplifier_Operational:LM318H")
+		(at 138.43 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "332393d9-4403-4341-b174-b6ff8b9cd504")
+		(property "Reference" "U5"
+			(at 148.59 77.5014 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LM318H"
+			(at 148.59 80.0414 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm318-n.pdf"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Operational Amplifier, TO-99-8"
+			(at 138.43 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "5"
+			(uuid "a3f699fd-5e65-43ad-8f7a-a574fa47e1b4")
+		)
+		(pin "6"
+			(uuid "e635187c-3b62-4e54-be2e-ae36198940cf")
+		)
+		(pin "7"
+			(uuid "71df09f2-31ba-4381-917b-790e8de61083")
+		)
+		(pin "4"
+			(uuid "9ca024ed-88ec-4501-b7d5-504e6a78a92a")
+		)
+		(pin "3"
+			(uuid "796e0311-3251-4426-86a7-696cf32e7b05")
+		)
+		(pin "1"
+			(uuid "1bd19e90-38f6-4789-94d0-8bed842ccc7a")
+		)
+		(pin "2"
+			(uuid "decfbeca-6008-4f8e-9a54-50bd37a4759b")
+		)
+		(pin "8"
+			(uuid "ef407866-ad12-4302-94c1-2824ce9f2fd3")
+		)
+		(instances
+			(project "SiganlGen"
+				(path "/e2db369b-fed9-4358-b449-15db5155edf2/9ba1073f-2aa9-4b97-830f-fe16eb25e8f5"
+					(reference "U5")
 					(unit 1)
 				)
 			)
@@ -2903,82 +3384,6 @@
 			(project "SiganlGen"
 				(path "/e2db369b-fed9-4358-b449-15db5155edf2/9ba1073f-2aa9-4b97-830f-fe16eb25e8f5"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Transistor_BJT:BC557")
-		(at 175.26 118.11 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4fc6cef7-0852-4468-b2e4-5e07999a9370")
-		(property "Reference" "Q2"
-			(at 180.34 116.8399 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC557"
-			(at 180.34 119.3799 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 180.34 120.015 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC556BTA-D.pdf"
-			(at 175.26 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, PNP Small Signal Transistor, TO-92"
-			(at 175.26 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "3"
-			(uuid "2ca32fdf-12ea-4d4b-b742-ab50329ae259")
-		)
-		(pin "1"
-			(uuid "9aa298c5-2764-487c-864f-cd7c780a8cac")
-		)
-		(pin "2"
-			(uuid "444226e0-a67f-43c1-9429-1ddbfbccdf4f")
-		)
-		(instances
-			(project "SiganlGen"
-				(path "/e2db369b-fed9-4358-b449-15db5155edf2/9ba1073f-2aa9-4b97-830f-fe16eb25e8f5"
-					(reference "Q2")
 					(unit 1)
 				)
 			)
@@ -3098,7 +3503,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 132.08 113.538 90)
 			(effects
 				(font
@@ -3168,7 +3573,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 156.718 72.39 90)
 			(effects
 				(font
@@ -3392,7 +3797,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric_Pad1.18x1.45mm_HandSolder"
 			(at 103.8352 107.95 0)
 			(effects
 				(font
@@ -3501,82 +3906,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Transistor_BJT:BC547")
-		(at 175.26 78.74 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a1410575-118b-436e-9034-646585016b59")
-		(property "Reference" "Q1"
-			(at 180.34 77.4699 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "BC547"
-			(at 180.34 80.0099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-92_HandSolder"
-			(at 180.34 80.645 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.onsemi.com/pub/Collateral/BC550-D.pdf"
-			(at 175.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Description" "0.1A Ic, 45V Vce, Small Signal NPN Transistor, TO-92"
-			(at 175.26 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "8218a555-a098-4c83-8165-1f1a4da4384b")
-		)
-		(pin "2"
-			(uuid "e395a9a2-df0d-45bb-b76d-4e07bd8f39fc")
-		)
-		(pin "3"
-			(uuid "af9587eb-34bf-4e61-a3c6-97a65c3ec20d")
-		)
-		(instances
-			(project "SiganlGen"
-				(path "/e2db369b-fed9-4358-b449-15db5155edf2/9ba1073f-2aa9-4b97-830f-fe16eb25e8f5"
-					(reference "Q1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 121.92 120.65 180)
 		(unit 1)
@@ -3604,7 +3933,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 123.698 120.65 90)
 			(effects
 				(font
@@ -3740,7 +4069,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 179.578 105.41 90)
 			(effects
 				(font
@@ -3810,7 +4139,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
 			(at 156.718 124.46 90)
 			(effects
 				(font
@@ -3868,6 +4197,7 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
 		(property "Value" "NE5532"
@@ -3876,9 +4206,10 @@
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Footprint" "Package_DIP:DIP-8_W7.62mm_Socket_LongPads"
+		(property "Footprint" ""
 			(at 133.35 97.79 0)
 			(effects
 				(font
@@ -3966,7 +4297,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "Potentiometer_THT:Potentiometer_ACP_CA9-V10_Vertical"
 			(at 153.162 102.87 90)
 			(effects
 				(font
