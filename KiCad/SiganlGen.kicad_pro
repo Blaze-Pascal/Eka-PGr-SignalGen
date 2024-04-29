@@ -576,6 +576,22 @@
     [
       "e2db369b-fed9-4358-b449-15db5155edf2",
       "Główny"
+    ],
+    [
+      "27026b69-1c54-41be-a6f6-95a262163c29",
+      "Power Section"
+    ],
+    [
+      "65422475-5383-4738-8eec-3050936e02e9",
+      "MCU"
+    ],
+    [
+      "9ba1073f-2aa9-4b97-830f-fe16eb25e8f5",
+      "Output Stage"
+    ],
+    [
+      "76a7b521-7475-43f8-a5df-abb93f6b2174",
+      "User Interface"
     ]
   ],
   "text_variables": {}
