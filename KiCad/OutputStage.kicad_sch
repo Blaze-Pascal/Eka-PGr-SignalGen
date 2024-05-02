@@ -1796,16 +1796,28 @@
 		(uuid "db55965f-9934-4954-b7de-558369af5a3e")
 	)
 	(no_connect
-		(at 140.97 71.12)
+		(at 138.43 76.2)
 		(uuid "012be08e-7cac-4ba7-a0c0-8edb029cc746")
 	)
 	(no_connect
-		(at 125.73 73.66)
+		(at 123.19 78.74)
 		(uuid "2459f385-70df-4fce-9bde-c97d1cca0706")
 	)
 	(no_connect
-		(at 125.73 68.58)
+		(at 106.68 67.31)
+		(uuid "950825a8-9607-4325-afaf-1a60655dd882")
+	)
+	(no_connect
+		(at 123.19 73.66)
 		(uuid "baec5cbf-0e90-49a0-8b7a-ba070dc6b193")
+	)
+	(no_connect
+		(at 106.68 82.55)
+		(uuid "d89ed261-5bf2-42d2-8fa4-d93df0032ae2")
+	)
+	(no_connect
+		(at 109.22 82.55)
+		(uuid "e1796f28-ce81-4847-9c63-7cd24edccea7")
 	)
 	(wire
 		(pts
@@ -2852,7 +2864,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:NE5532")
-		(at 133.35 71.12 0)
+		(at 130.81 76.2 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2861,7 +2873,7 @@
 		(fields_autoplaced yes)
 		(uuid "242c98c0-d330-4f3c-bc41-3946f7b83272")
 		(property "Reference" "U3"
-			(at 133.35 60.96 0)
+			(at 130.81 66.04 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2869,7 +2881,7 @@
 			)
 		)
 		(property "Value" "NE5532"
-			(at 133.35 63.5 0)
+			(at 130.81 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2877,7 +2889,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 133.35 71.12 0)
+			(at 130.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2886,7 +2898,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/ne5532.pdf"
-			(at 133.35 71.12 0)
+			(at 130.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2895,7 +2907,7 @@
 			)
 		)
 		(property "Description" "Dual Low-Noise Operational Amplifiers, DIP-8/SOIC-8"
-			(at 133.35 71.12 0)
+			(at 130.81 76.2 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3239,7 +3251,7 @@
 	)
 	(symbol
 		(lib_id "Amplifier_Operational:LM318H")
-		(at 138.43 83.82 0)
+		(at 106.68 74.93 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -3248,7 +3260,7 @@
 		(fields_autoplaced yes)
 		(uuid "332393d9-4403-4341-b174-b6ff8b9cd504")
 		(property "Reference" "U5"
-			(at 148.59 77.5014 0)
+			(at 116.84 68.6114 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3256,7 +3268,7 @@
 			)
 		)
 		(property "Value" "LM318H"
-			(at 148.59 80.0414 0)
+			(at 116.84 71.1514 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3264,7 +3276,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 138.43 83.82 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3273,7 +3285,7 @@
 			)
 		)
 		(property "Datasheet" "http://www.ti.com/lit/ds/symlink/lm318-n.pdf"
-			(at 138.43 83.82 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3282,7 +3294,7 @@
 			)
 		)
 		(property "Description" "Operational Amplifier, TO-99-8"
-			(at 138.43 83.82 0)
+			(at 106.68 74.93 0)
 			(effects
 				(font
 					(size 1.27 1.27)
