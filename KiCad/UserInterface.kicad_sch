@@ -3428,7 +3428,7 @@
 	)
 	(hierarchical_label "Y0"
 		(shape input)
-		(at 44.45 55.88 180)
+		(at 39.37 38.1 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3455,7 +3455,7 @@
 	)
 	(hierarchical_label "Y1"
 		(shape input)
-		(at 44.45 58.42 180)
+		(at 39.37 40.64 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3497,7 +3497,7 @@
 	)
 	(hierarchical_label "X3"
 		(shape input)
-		(at 44.45 53.34 180)
+		(at 39.37 35.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3523,7 +3523,7 @@
 	)
 	(hierarchical_label "Y3"
 		(shape input)
-		(at 44.45 63.5 180)
+		(at 39.37 45.72 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3577,7 +3577,7 @@
 	)
 	(hierarchical_label "Y2"
 		(shape input)
-		(at 44.45 60.96 180)
+		(at 39.37 43.18 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3670,7 +3670,7 @@
 	)
 	(hierarchical_label "X0"
 		(shape input)
-		(at 44.45 45.72 180)
+		(at 39.37 27.94 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3709,7 +3709,7 @@
 	)
 	(hierarchical_label "X1"
 		(shape input)
-		(at 44.45 48.26 180)
+		(at 39.37 30.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3774,7 +3774,7 @@
 	)
 	(hierarchical_label "X2"
 		(shape input)
-		(at 44.45 50.8 180)
+		(at 39.37 33.02 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4098,7 +4098,7 @@
 	)
 	(symbol
 		(lib_id "Connector:Conn_01x08_Socket")
-		(at 49.53 53.34 0)
+		(at 44.45 35.56 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4106,7 +4106,7 @@
 		(dnp no)
 		(uuid "1b2cc699-37fd-40de-88e9-57c77a8cf317")
 		(property "Reference" "J5"
-			(at 40.894 66.548 0)
+			(at 35.814 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4114,7 +4114,7 @@
 			)
 		)
 		(property "Value" "Btn_Matrix"
-			(at 47.498 66.548 0)
+			(at 42.418 48.768 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4122,7 +4122,7 @@
 			)
 		)
 		(property "Footprint" "Connector_PinSocket_2.54mm:PinSocket_1x08_P2.54mm_Vertical"
-			(at 49.53 53.34 0)
+			(at 44.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4131,7 +4131,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 49.53 53.34 0)
+			(at 44.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4140,7 +4140,7 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x08, script generated"
-			(at 49.53 53.34 0)
+			(at 44.45 35.56 0)
 			(effects
 				(font
 					(size 1.27 1.27)

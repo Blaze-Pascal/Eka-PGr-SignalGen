@@ -4,26 +4,23 @@ Warning: Multiple definitions of model "2scr375p" Type: BJT
 Warning: Multiple definitions of model "bc857b" Type: BJT
 Warning: Multiple definitions of model "bc847c" Type: BJT
 Warning: Multiple definitions of model "bc847b" Type: BJT
-WARNING: Node N013 is floating.
-
-WARNING: Less than two connections to node n013.  This node is used by c1.
 Direct Newton iteration for .op point succeeded.
 
-Date: Tue Apr 30 11:42:33 2024
-Total elapsed time: 1.978 seconds.
+Date: Sun May  5 03:13:05 2024
+Total elapsed time: 0.122 seconds.
 
 tnom = 27
 temp = 27
 method = modified trap
-totiter = 150984
-traniter = 150952
-tranpoints = 46423
-accept = 31256
-rejected = 15167
-matrix size = 27
-fillins = 21
+totiter = 2109
+traniter = 2082
+tranpoints = 1042
+accept = 1042
+rejected = 0
+matrix size = 22
+fillins = 40
 solver = Normal
-Avg thread counts: 1.0/1.0/1.0/1.0
-Matrix Compiler1: 2.80 KB object code size  1.0/0.8/[0.6]
-Matrix Compiler2: 2.68 KB object code size  0.6/0.7/[0.4]
+Avg thread counts: 1.7/2.3/2.3/1.7
+Matrix Compiler1:     199 opcodes  1.1/[0.5]/0.5
+Matrix Compiler2: 2.54 KB object code size  0.4/0.4/[0.3]
 
