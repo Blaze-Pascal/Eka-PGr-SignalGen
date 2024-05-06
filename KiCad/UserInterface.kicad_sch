@@ -1088,7 +1088,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2265f630-225d-4544-9f72-b5699948b136")
-		(property "Reference" "J3"
+		(property "Reference" "J4"
 			(at 49.53 113.0299 0)
 			(effects
 				(font
@@ -1142,7 +1142,7 @@
 		(instances
 			(project "SiganlGen"
 				(path "/e2db369b-fed9-4358-b449-15db5155edf2/76a7b521-7475-43f8-a5df-abb93f6b2174"
-					(reference "J3")
+					(reference "J4")
 					(unit 1)
 				)
 			)
@@ -1157,7 +1157,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "77ab4893-4bab-46ed-a7b9-ea9137069b12")
-		(property "Reference" "J4"
+		(property "Reference" "J5"
 			(at 38.862 82.042 0)
 			(effects
 				(font
@@ -1214,7 +1214,7 @@
 		(instances
 			(project "SiganlGen"
 				(path "/e2db369b-fed9-4358-b449-15db5155edf2/76a7b521-7475-43f8-a5df-abb93f6b2174"
-					(reference "J4")
+					(reference "J5")
 					(unit 1)
 				)
 			)
@@ -1301,7 +1301,7 @@
 		(on_board yes)
 		(dnp no)
 		(uuid "9da30e48-5075-4de9-a47b-b8843b607827")
-		(property "Reference" "J9"
+		(property "Reference" "J3"
 			(at 33.02 45.2121 0)
 			(effects
 				(font
@@ -1361,7 +1361,7 @@
 		(instances
 			(project "SiganlGen"
 				(path "/e2db369b-fed9-4358-b449-15db5155edf2/76a7b521-7475-43f8-a5df-abb93f6b2174"
-					(reference "J9")
+					(reference "J3")
 					(unit 1)
 				)
 			)
