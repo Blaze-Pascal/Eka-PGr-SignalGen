@@ -910,7 +910,7 @@
 	)
 	(hierarchical_label "MUX2"
 		(shape input)
-		(at 40.64 41.91 180)
+		(at 40.64 39.37 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1067,7 +1067,7 @@
 	)
 	(hierarchical_label "MUX3"
 		(shape input)
-		(at 40.64 39.37 180)
+		(at 40.64 41.91 180)
 		(fields_autoplaced yes)
 		(effects
 			(font

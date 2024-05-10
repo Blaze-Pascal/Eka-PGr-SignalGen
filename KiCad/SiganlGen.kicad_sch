@@ -489,168 +489,6 @@
 				)
 			)
 		)
-		(symbol "Diode:1N4148WT"
-			(pin_numbers hide)
-			(pin_names hide)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4148WT"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_SMD:D_SOD-523"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*SOD?523*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4148WT_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4148WT_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "MCU_Module_RaspberryPi_Pico:RaspberryPi_Pico"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2519,7 +2357,7 @@
 		(uuid "01dde640-178b-4eab-a20d-fcdf8e207c14")
 	)
 	(junction
-		(at 64.77 30.48)
+		(at 59.69 30.48)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "36247153-af25-44f4-80d2-7ee28733e40f")
@@ -2553,10 +2391,6 @@
 	(no_connect
 		(at 119.38 99.06)
 		(uuid "d6843acc-7a17-4587-a40a-5b7f1cbed1ba")
-	)
-	(no_connect
-		(at 165.1 83.82)
-		(uuid "dfda8579-9f92-49ac-8eb2-66e7a23a7151")
 	)
 	(no_connect
 		(at 119.38 83.82)
@@ -3118,6 +2952,16 @@
 		)
 		(uuid "23733e56-505e-4238-b7a0-d744f8d756d0")
 	)
+	(wire
+		(pts
+			(xy 165.1 81.28) (xy 218.44 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "26ade1b1-db06-43e4-9b95-f22ecb116179")
+	)
 	(bus
 		(pts
 			(xy 102.87 139.7) (xy 102.87 137.16)
@@ -3200,7 +3044,7 @@
 	)
 	(wire
 		(pts
-			(xy 43.18 30.48) (xy 52.07 30.48)
+			(xy 43.18 30.48) (xy 46.99 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3260,7 +3104,7 @@
 	)
 	(wire
 		(pts
-			(xy 64.77 30.48) (xy 72.39 30.48)
+			(xy 59.69 30.48) (xy 67.31 30.48)
 		)
 		(stroke
 			(width 0)
@@ -3327,16 +3171,6 @@
 			(type default)
 		)
 		(uuid "465e90b6-e105-4800-9e12-c4dc63ed130c")
-	)
-	(wire
-		(pts
-			(xy 165.1 81.28) (xy 218.44 81.28)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "4ee2d7f7-9621-45b0-9d2b-12979ae9faa2")
 	)
 	(wire
 		(pts
@@ -3487,6 +3321,16 @@
 			(type default)
 		)
 		(uuid "6922059e-034c-46f0-b88d-a9a03c092b52")
+	)
+	(wire
+		(pts
+			(xy 165.1 83.82) (xy 218.44 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6cc5dd0b-f10a-48fa-a5bf-8c101a755262")
 	)
 	(wire
 		(pts
@@ -3800,7 +3644,7 @@
 	)
 	(wire
 		(pts
-			(xy 59.69 30.48) (xy 64.77 30.48)
+			(xy 54.61 30.48) (xy 59.69 30.48)
 		)
 		(stroke
 			(width 0)
@@ -4727,7 +4571,7 @@
 	)
 	(symbol
 		(lib_id "power:+12V")
-		(at 72.39 30.48 0)
+		(at 67.31 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4736,7 +4580,7 @@
 		(fields_autoplaced yes)
 		(uuid "16c0e1a1-8c4e-446e-8c23-84fd328054ac")
 		(property "Reference" "#PWR05"
-			(at 72.39 34.29 0)
+			(at 67.31 34.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4745,7 +4589,7 @@
 			)
 		)
 		(property "Value" "+12V"
-			(at 72.39 25.4 0)
+			(at 67.31 25.4 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4753,7 +4597,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 72.39 30.48 0)
+			(at 67.31 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4762,7 +4606,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 72.39 30.48 0)
+			(at 67.31 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4771,7 +4615,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+12V\""
-			(at 72.39 30.48 0)
+			(at 67.31 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5108,93 +4952,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4148WT")
-		(at 64.77 34.29 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3a462020-a6b0-4f2d-80e2-5cd848b8bbec")
-		(property "Reference" "D1"
-			(at 67.31 33.528 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4148WT"
-			(at 67.31 36.068 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P5.08mm_Vertical_KathodeUp"
-			(at 60.325 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "https://www.diodes.com/assets/Datasheets/ds30396.pdf"
-			(at 64.77 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "75V 0.15A Fast switching Diode, SOD-523"
-			(at 64.77 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 64.77 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 64.77 34.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "4e4c325d-2d88-4f3b-a351-c72e045d791c")
-		)
-		(pin "1"
-			(uuid "b8834d14-f817-418d-847b-a70226ee2810")
-		)
-		(instances
-			(project "SiganlGen"
-				(path "/e2db369b-fed9-4358-b449-15db5155edf2"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:-10V")
 		(at 87.63 101.6 180)
 		(unit 1)
@@ -5262,7 +5019,7 @@
 	)
 	(symbol
 		(lib_id "power:PWR_FLAG")
-		(at 64.77 30.48 0)
+		(at 59.69 30.48 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5270,7 +5027,7 @@
 		(dnp no)
 		(uuid "4ae16012-3048-41e0-afae-c904d1a30f4f")
 		(property "Reference" "#FLG01"
-			(at 64.77 28.575 0)
+			(at 59.69 28.575 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5279,7 +5036,7 @@
 			)
 		)
 		(property "Value" "PWR_FLAG"
-			(at 64.77 22.86 90)
+			(at 59.69 22.86 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5287,7 +5044,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 64.77 30.48 0)
+			(at 59.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5296,7 +5053,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 64.77 30.48 0)
+			(at 59.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5305,7 +5062,7 @@
 			)
 		)
 		(property "Description" "Special symbol for telling ERC where power comes from"
-			(at 64.77 30.48 0)
+			(at 59.69 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5583,72 +5340,6 @@
 			(project "SiganlGen"
 				(path "/e2db369b-fed9-4358-b449-15db5155edf2"
 					(reference "#PWR013")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:GND")
-		(at 64.77 38.1 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "9a8d2cb7-58a4-4575-87df-1e55690e75bc")
-		(property "Reference" "#PWR03"
-			(at 64.77 44.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 64.77 43.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 64.77 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 64.77 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 64.77 38.1 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "714c2a87-bb20-4510-88ed-f86a53c355b7")
-		)
-		(instances
-			(project "SiganlGen"
-				(path "/e2db369b-fed9-4358-b449-15db5155edf2"
-					(reference "#PWR03")
 					(unit 1)
 				)
 			)
@@ -6260,7 +5951,7 @@
 	)
 	(symbol
 		(lib_id "Device:Fuse")
-		(at 55.88 30.48 90)
+		(at 50.8 30.48 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6269,7 +5960,7 @@
 		(fields_autoplaced yes)
 		(uuid "ff233af2-ee81-4eae-b6cb-f43ae3fffc3f")
 		(property "Reference" "F1"
-			(at 55.88 24.13 90)
+			(at 50.8 24.13 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6277,7 +5968,7 @@
 			)
 		)
 		(property "Value" "Fuse"
-			(at 55.88 26.67 90)
+			(at 50.8 26.67 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6285,7 +5976,7 @@
 			)
 		)
 		(property "Footprint" "Fuse:Fuseholder_Clip-5x20mm_Keystone_3517_Inline_P23.11x6.76mm_D1.70mm_Horizontal"
-			(at 55.88 32.258 90)
+			(at 50.8 32.258 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6294,7 +5985,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 55.88 30.48 0)
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6303,7 +5994,7 @@
 			)
 		)
 		(property "Description" "Fuse"
-			(at 55.88 30.48 0)
+			(at 50.8 30.48 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6778,7 +6469,7 @@
 			(uuid "12219473-c0e8-4e16-b8e8-4b448b2a6370")
 		)
 		(pin "OUT_EN" input
-			(at 218.44 81.28 180)
+			(at 218.44 83.82 180)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6787,6 +6478,17 @@
 				(justify left)
 			)
 			(uuid "10004983-858a-40a5-932f-f2bedaa5e1b4")
+		)
+		(pin "3.3Sig" input
+			(at 218.44 81.28 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(bold yes)
+				)
+				(justify left)
+			)
+			(uuid "56e46005-3749-425c-a00a-38eed68f1009")
 		)
 		(instances
 			(project "SiganlGen"

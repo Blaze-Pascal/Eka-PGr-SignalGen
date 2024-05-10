@@ -2337,6 +2337,12 @@
 		(uuid "3daffce3-a2cc-45b6-be64-6a35f4a6bb35")
 	)
 	(junction
+		(at 175.26 137.16)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "3e10e2a8-f1f8-415c-bd07-814afabae4a1")
+	)
+	(junction
 		(at 218.44 114.3)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2425,6 +2431,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8813fded-4844-4c42-8180-556edc3a49f9")
+	)
+	(junction
+		(at 175.26 66.04)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "8a4c3101-b4e2-4ec7-9148-befef0eb4e30")
 	)
 	(junction
 		(at 73.66 132.08)
@@ -2754,7 +2766,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 66.04) (xy 207.01 66.04)
+			(xy 170.18 66.04) (xy 175.26 66.04)
 		)
 		(stroke
 			(width 0)
@@ -3064,7 +3076,7 @@
 	)
 	(wire
 		(pts
-			(xy 171.45 137.16) (xy 208.28 137.16)
+			(xy 171.45 137.16) (xy 175.26 137.16)
 		)
 		(stroke
 			(width 0)
@@ -3101,6 +3113,16 @@
 			(type default)
 		)
 		(uuid "7e519fe3-e8fe-4160-b7c9-23dd2956f381")
+	)
+	(wire
+		(pts
+			(xy 175.26 137.16) (xy 208.28 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f612035-b578-4b3f-bfe9-b32dfd68471c")
 	)
 	(wire
 		(pts
@@ -3581,6 +3603,16 @@
 			(type default)
 		)
 		(uuid "e110c1bb-c9f1-4192-991c-0751dd197a3f")
+	)
+	(wire
+		(pts
+			(xy 175.26 66.04) (xy 207.01 66.04)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e1219a5a-00a3-4f0c-923b-dbd11aef3686")
 	)
 	(wire
 		(pts
@@ -5394,7 +5426,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Vertical"
+		(property "Footprint" "Package_TO_SOT_THT:TO-220-3_Horizontal_TabDown"
 			(at 63.5 55.245 0)
 			(effects
 				(font
@@ -6246,6 +6278,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 175.26 66.04 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c4cd1a89-842c-4b34-8384-00753379fcec")
+		(property "Reference" "#FLG03"
+			(at 175.26 64.135 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 175.26 58.42 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 175.26 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "12c34125-8511-4871-ab3c-b6d3dad3f4d0")
+		)
+		(instances
+			(project "SiganlGen"
+				(path "/e2db369b-fed9-4358-b449-15db5155edf2/27026b69-1c54-41be-a6f6-95a262163c29"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 165.1 87.63 0)
 		(unit 1)
@@ -6941,6 +7038,71 @@
 			(project "SiganlGen"
 				(path "/e2db369b-fed9-4358-b449-15db5155edf2/27026b69-1c54-41be-a6f6-95a262163c29"
 					(reference "C8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:PWR_FLAG")
+		(at 175.26 137.16 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "f9e9ac0c-85fb-4d05-8b4e-1e912f8177f0")
+		(property "Reference" "#FLG04"
+			(at 175.26 139.065 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 175.26 144.78 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Special symbol for telling ERC where power comes from"
+			(at 175.26 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "07e42dbd-01e0-4dd9-8b69-814ce558d485")
+		)
+		(instances
+			(project "SiganlGen"
+				(path "/e2db369b-fed9-4358-b449-15db5155edf2/27026b69-1c54-41be-a6f6-95a262163c29"
+					(reference "#FLG04")
 					(unit 1)
 				)
 			)
